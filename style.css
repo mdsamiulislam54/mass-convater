@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+ background-color: #ddd;
+ font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 600px;
+    height: auto;
+    margin:  30px auto;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+
+}
+.heading_wrap{
+   
+    padding: 10px 0px;
+    
+}
+.heading_wrap h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+#root_select_option{
+    width: 100%;
+    padding: 10px;
+}
+.input_group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+.input_group input {
+    width: 250px;
+    padding: 10px ;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ddd;
+
+}
+.input_group select{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ddd;
+}
+.option_group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+}
+.equal{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.formula {
+    padding: 10px ;
+    background-color: #DDD;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.heading_text{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: red;
+}
+#formula_text{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
